@@ -1,9 +1,10 @@
 import React from "react"
+import Todo from "./components/Todo";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Tools Initialistion (React and Tailwind)</h1>
+    <div className="bg-stone-900 grid py-4 min-h-screen">
+      <Todo />
     </div>
   );
 }
